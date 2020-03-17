@@ -6,7 +6,7 @@
 // disable right click
 document.oncontextmenu = function (e) {
     e.preventDefault()
-    console.log(e)
+    return false;
 }
 // disable somme additional key
 document.onkeydown = function (e) {
